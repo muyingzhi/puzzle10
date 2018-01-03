@@ -3,4 +3,4 @@ eureka:
     service-url:
       defaultZone: http://localhost:8010/eureka
 
-env: test
+env: department-test
