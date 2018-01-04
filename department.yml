@@ -1,9 +1,0 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eurekaServer:8010/eureka
-  instance:
-    instance-id: ${spring.cloud.client.ipAddress}_${random.int}
-    status-page-url-path: /swagger-ui.html
-    health-check-url-path: /health
-env: deparment-defaults
